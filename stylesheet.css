@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.header, .promo{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px;
+    align-content: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 8px;
+    align-content: center;
+}
+
+button, .call-to-action{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 4px;
+}
+
+button{
+    padding: 4px 16px;
+    border: none;
+}
+
+.call-to-action button{
+
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style:groove;
+}
+
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 24px;;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.source{
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+    align-self: flex-end;
+}
+
+.promo h1{
+    font-size: 40px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.promo p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info img{
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 8px;
+    width:200px;
+    height:200px;
+}
