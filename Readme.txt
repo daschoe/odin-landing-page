@@ -8,3 +8,11 @@ This will demonstrate basic website building skills.
 24.10.2026 - xx.xx.2026
 ### Progress
 24.10.2026 - added basic structure<br/>
+
+### ToDo
+- ~~ header ~~
+- promo section
+- info section
+- ~~ quote ~~
+- ~~ call to action ~~
+- ~~ footer ~~
